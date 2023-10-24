@@ -17,13 +17,13 @@ import VotingEnded from './components/VotingEnded';
 function App() {
   return (
 <Router>
- {/* <Header /> */}
+ <Header />
  <Routes>
- {/* <Route path='/' element={<Home />} />
+ <Route path='/' element={<Home />} />
  <Route path='/login' element={<Login />} />
- <Route path='/details' element={<Details />} /> */}
+ <Route path='/details' element={<Details />} />
  <Route path='/ended' element={<VotingEnded />} />
- {/* <Route path='*' element={<Error />} /> */}
+ <Route path='*' element={<Error />} />
  </Routes>
  </Router>
   );

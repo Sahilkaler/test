@@ -11,7 +11,7 @@ function VotingEnded() {
       <h1 className="display-3  fw-bold text-white">Voting Has Ended</h1>
       <div>
         <div className="mt-5 fw-bold text-white">Want to view the live Vote count click here</div>
-      <Link to="/" className="btn btn-primary">
+      <Link to="/" className="btn btn-danger">
           Go to Home
         </Link>
       </div>
